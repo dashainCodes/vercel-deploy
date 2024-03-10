@@ -41,7 +41,7 @@ app.use(cookieParser());
 
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://demo.expertbusiness.com.np", "http://demo.expertbusiness.com.np", "http://localhost:3000"],
+    origin: ["http://localhost:5173", "https://demo.expertbusiness.com.np", "http://demo.expertbusiness.com.np", "http://localhost:3000","https://vercel-frontend-sand.vercel.app/"],
     credentials: true,
   })
 );
